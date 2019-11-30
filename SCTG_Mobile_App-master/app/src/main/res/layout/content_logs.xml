@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hchuphal.sctg_mobile_app.Logs" tools:showIn="@layout/app_bar_logs"
+    android:background="@drawable/main"
+    >
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Periodic Logs Upload"
+        android:id="@+id/textView41"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#06189f"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Logs are captured over /sdcard of the mobile"
+        android:id="@+id/radioButton5"
+        android:checked="true"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log File Contains Unique IMEI No of Mobile"
+        android:id="@+id/radioButton6"
+        android:checked="true"
+        android:layout_below="@+id/radioButton5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Files are tagged with TimeStamp."
+        android:id="@+id/radioButton8"
+        android:checked="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioButton6" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCTG_ Log File contains all Mobile Network Info like attached cellId, DL UL TP, RSRP, CQI etc."
+        android:id="@+id/radioButton9"
+        android:checked="true"
+        android:layout_below="@+id/radioButton8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snapshot of the mobile screen is als taken. "
+        android:id="@+id/radioButton10"
+        android:checked="true"
+        android:layout_below="@+id/radioButton9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Periodic Timestamp will indicate the duration of time a mobile device was connected to a cell ID."
+        android:id="@+id/radioButton11"
+        android:checked="true"
+        android:layout_below="@+id/radioButton10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="KPI Dashboard Links"
+        android:id="@+id/textView42"
+        android:textStyle="bold"
+        android:textColor="#04479f"
+        android:layout_below="@+id/radioButton12"
+        android:layout_alignRight="@+id/textView41"
+        android:layout_alignEnd="@+id/textView41" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log File is Uploaded to a FTP server periodically."
+        android:id="@+id/radioButton12"
+        android:checked="true"
+        android:layout_below="@+id/radioButton11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" * Cisco Dashboard "
+        android:id="@+id/buttonKPI"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView42"
+        android:layout_alignEnd="@+id/radioButton12" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" * Internal Dashboard  "
+        android:id="@+id/buttonInternalKPI"
+        android:layout_below="@+id/buttonKPI"
+        android:layout_alignLeft="@+id/buttonKPI"
+        android:layout_alignStart="@+id/buttonKPI"
+        android:layout_alignRight="@+id/buttonKPI"
+        android:layout_alignEnd="@+id/buttonKPI" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:icon="@drawable/sys"
+            android:title="Home" />
+        <item android:id="@+id/nav_sys" android:icon="@drawable/sys"
+            android:title="System Info" />
+        <item android:id="@+id/nav_nw_info" android:icon="@drawable/nw"
+            android:title="Full Network Info" />
+        <item android:id="@+id/nav_ping" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Ping" />
+        <item android:id="@+id/nav_tp" android:icon="@drawable/tp"
+            android:title="DL/UL ThroughPut" />
+        <item android:id="@+id/nav_graph" android:icon="@drawable/tp"
+            android:title="Live Graph" />
+        <item android:id="@+id/nav_shell" android:icon="@drawable/shell"
+            android:title="Shell Executer" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Tools and Logs" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Feedback" />
+            <item android:id="@+id/nav_about" android:icon="@android:drawable/ic_menu_send"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

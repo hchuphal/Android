@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hchuphal.sctg_mobile_app.sysInfo" tools:showIn="@layout/app_bar_sys_info"
+    android:background="@drawable/main"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Version :"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile IP (Ipv4) :"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WIfi IP (IPv4) : "
+        android:id="@+id/textView26"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Status : "
+        android:id="@+id/textView28"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile IMEI : "
+        android:id="@+id/textView29"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Android Device Information"
+        android:id="@+id/textView11"
+        android:autoText="true"
+        android:textStyle="bold|italic"
+        android:textColor="#4b0580"
+        android:singleLine="true"
+        android:layout_below="@+id/textView27"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAndroidV"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_toRightOf="@+id/textView28"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textMIP"
+        android:layout_alignLeft="@+id/textAndroidV"
+        android:layout_alignStart="@+id/textAndroidV"
+        android:layout_above="@+id/textView26"
+        android:layout_alignRight="@+id/textAndroidV"
+        android:layout_alignEnd="@+id/textAndroidV"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textWIFIIP"
+        android:layout_toRightOf="@+id/textView26"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_above="@+id/textView28"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textConnStatus"
+        android:layout_below="@+id/textWIFIIP"
+        android:layout_alignRight="@+id/textMIP"
+        android:layout_alignEnd="@+id/textMIP"
+        android:layout_alignBottom="@+id/textView28"
+        android:layout_toRightOf="@+id/textView28"
+        android:layout_toEndOf="@+id/textView28"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textIMEI"
+        android:layout_below="@+id/textView28"
+        android:layout_toRightOf="@+id/textView28"
+        android:layout_above="@+id/textView9"
+        android:layout_alignRight="@+id/textConnStatus"
+        android:layout_alignEnd="@+id/textConnStatus"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Connection Type : "
+        android:id="@+id/textView9"
+        android:textColor="#0634bc"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textConnType"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_alignRight="@+id/textConnStatus"
+        android:layout_alignEnd="@+id/textConnStatus"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android System Test Settings"
+        android:textAllCaps="false"
+        android:id="@+id/btnAndroidCodes"
+        android:textColor="#095b0b"
+        android:textStyle="bold"
+        android:fontFamily="@android:string/ok"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textBattery"
+        android:layout_alignRight="@+id/btnAndroidCodes"
+        android:layout_alignEnd="@+id/btnAndroidCodes"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textColor="#210af0" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center"
+        android:minWidth="200dip"
+        android:minHeight="100dip"
+        android:max="100"
+        android:layout_below="@+id/textBattery"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btnAndroidCodes"
+        android:layout_alignRight="@+id/textConnType"
+        android:layout_alignEnd="@+id/textConnType"
+        android:indeterminate="false" />
+
+
+</RelativeLayout>
