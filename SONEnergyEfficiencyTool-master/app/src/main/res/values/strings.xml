@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SON Energy Efficiency Tool</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main_page">Son Server Login</string>
+
+    <string-array name="ip_arrays">
+        <item>192.168.1.109</item>
+        <item>10.105.252.2</item>
+        <item>127.0.0.1</item>
+
+
+    </string-array>
+</resources>
