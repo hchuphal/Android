@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    tools:context=".Activity.handleEmployeesTime">
+
+    <TextView
+        android:id="@+id/txt_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="@dimen/header_margin"
+        android:paddingTop="@dimen/header_margin"
+        android:text="@string/connect_team06"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#e106e1"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+            android:id="@+id/json2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#e106e1"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/view_padding">
+
+        <TextView
+            android:id="@+id/add_dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="@string/select_task"
+            android:textSize="@dimen/add_edit_textsize" />
+
+        <Spinner
+            android:id="@+id/task_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_task"
+            android:backgroundTint="#f2bbef"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnChangeText3"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="GET Request"
+        android:layout_marginBottom="38dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnChangeText4"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"
+        android:text="Send Reponse"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="" />
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:textColor="#830483"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+        </LinearLayout>

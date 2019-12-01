@@ -1,0 +1,53 @@
+<resources>
+    <string name="enter_name">Namn</string>
+    <string name="enter_pass">Lösenord</string>
+    <string name="login_attempts">Inloggningsförsök:</string>
+    <string name="login">Logga in</string>
+    <string name="cancel">Avbryt</string>
+
+    <string name="app_name">Liseberg Personalplanerare</string>
+    <string name="date_picker_title">Schedule Date</string>
+    <string name="new_employee">Ny personal</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s crimes</string>
+    <string name="choose_menu">Välkommen, välj ett av alternativen</string>
+    <string name="connect_team06">Anslut till Team-06</string>
+    <string name="connect_team08">Anslut till Team-08</string>
+    <string name="staff">Alla anställda</string>
+    <string name="view_all_employees">Se personal</string>
+    <string name="remove_employee">Ta bort personal</string>
+    <string name="update_employee">Updatera personal</string>
+    <string name="add_employee">Lägg till personal</string>
+    <string name="gender">Kön</string>
+    <string name="add_last_name">Efternamn</string>
+    <string name="add_first_name">Förnamn</string>
+    <string name="tta">Ankomst tid</string>
+    <string name="destination">Destination</string>
+    <string name="string_male">Man</string>
+    <string name="string_female">Kvinna</string>
+    <string name="add_date"> Schemalagd datum (DD/MM/YYYY)</string>
+    <string name="select_task">Välj en uppgift</string>
+    <string name="select_destination">Välj en destination</string>
+    <string name="status">Tillgänglighetsstatus</string>
+    <string name="enter_employee_id">Mata in ditt personal Id</string>
+    <string name="settings">Inställningar</string>
+    <string name="add_schedule">Lägg till schema</string>
+    <string name="assign_task">Tilldela uppgift</string>
+    <string name="title_activity_login">Logga in</string>
+    <!-- Strings related to login -->
+    <string name="rest_request">Team08 - REST API test </string>
+    <string name="rest_request2">Team06 - REST API test</string>
+    <string name="feedback">Skicka Feedback</string>
+
+    <string name="preferences">Preferenser</string>
+    <string name="colorTheme">Färgschema</string>
+    <string name="language">Språk</string>
+
+    <string name="defaultTheme">Standard</string>
+    <string name="dark">Mörk färgschema</string>
+    <string name="bright">Ljus färgschema</string>
+    <string name="disneyworld">Disneyworld färgschema</string>
+    <string name="contact">Kontakta @ team-07</string>
+
+</resources>

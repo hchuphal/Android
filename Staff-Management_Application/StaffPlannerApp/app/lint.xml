@@ -1,0 +1,19 @@
+<lint>
+    <issue id="InvalidPackage">
+        <ignore path="**/sentry*.jar"/>
+        <ignore path="**/androidannotations*.jar"/>
+        <ignore path="**/cling-support*.jar"/>
+        <ignore path="**/javax.servlet*.jar"/>
+        <ignore path="**/javax.*.jar"/>
+        <ignore path="**/grizzly-http*.jar"/>
+        <ignore path="**/jersey*.jar"/>
+        <ignore path="**/additionnal*.jar"/>
+        <ignore path="**/mail*.jar"/>
+        <ignore path="**/jaxb-core-*.jar"/>
+        <ignore path="**/jetty-server*.jar"/>
+        <ignore path="**/jetty-servlet*.jar"/>
+        <ignore path="**/jetty-util*.jar"/>
+        <ignore path="**/seamless-swing*.jar"/>
+        <ignore path="**/seamless-util*.jar"/>
+    </issue>
+</lint>

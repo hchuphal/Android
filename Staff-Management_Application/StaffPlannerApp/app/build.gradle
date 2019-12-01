@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.soc_macmini_15.sqlitepractice"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+        packagingOptions {
+            exclude 'META-INF/DEPENDENCIES'
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/LICENSE.txt'
+            exclude 'META-INF/license.txt'
+            exclude 'META-INF/NOTICE'
+            exclude 'META-INF/NOTICE.txt'
+            exclude 'META-INF/notice.txt'
+            exclude 'META-INF/ASL2.0'
+            exclude 'META-INF/jersey-module-version'
+        }
+        lintOptions {
+            lintConfig file("lint.xml")
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-beta1'
+    implementation 'com.android.volley:volley:1.1.0'
+    // Adds libraries defining annotations to only the compile classpath.
+    compileOnly 'com.google.dagger:dagger:2.22.1'
+    // Adds the annotation processor dependency to the annotation processor classpath.
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.22.1'
+    implementation 'com.android.support:design:28.0.0'
+    testImplementation 'junit:junit:4.13-beta-2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation files('libs/gson-2.2.4.jar')
+    implementation files('libs/additionnal.jar')
+    //implementation files('libs/activation.jar')
+    implementation files('libs/mail.jar')
+    compileOnly('com.googlecode.gmail4j:gmail4j:0.4'){
+       // exclude group: 'org.apache.commons.logging.Log', module:'commons-logging-1.1.1'
+        //exclude group: 'javax.mail', module:'mail-1.4.2'
+    }
+    implementation files('libs/httpclient-4.3-beta1.jar')
+    implementation files('libs/junit-4.12.jar')
+    implementation files('libs/apache-httpcomponents-httpcore.jar')
+}

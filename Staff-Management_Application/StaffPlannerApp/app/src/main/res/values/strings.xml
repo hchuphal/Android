@@ -1,0 +1,53 @@
+<resources>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_pass">Password</string>
+    <string name="login_attempts">Login Attempts Left:</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="app_name">Liseberg Staff Planner</string>
+    <string name="date_picker_title">Schedule Date</string>
+    <string name="new_employee">New Staff</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s crimes</string>
+    <string name="choose_menu">Welcome, Select an Option for Staff</string>
+    <string name="connect_team06">Connect to Team-06</string>
+    <string name="connect_team08">Connect to Team-08</string>
+    <string name="staff">All Staff Members</string>
+    <string name="view_all_employees">View All Staff</string>
+    <string name="remove_employee">Remove Staff</string>
+    <string name="update_employee">Update Staff</string>
+    <string name="add_employee">Add Staff</string>
+    <string name="gender">Gender</string>
+    <string name="add_last_name">Last Name</string>
+    <string name="add_first_name">First Name</string>
+    <string name="tta">Arrival Time</string>
+    <string name="destination">Destination</string>
+    <string name="string_male">Male</string>
+    <string name="string_female">Female</string>
+    <string name="add_date">Task Schedule Date (DD/MM/YYYY)</string>
+    <string name="select_task">Select a Task</string>
+    <string name="select_destination">Select a Destination</string>
+    <string name="status">Availibility Status</string>
+    <string name="enter_employee_id">Enter Your Staff Id</string>
+    <string name="settings">Settings</string>
+    <string name="add_schedule">Add Schedule</string>
+    <string name="assign_task">Assign Tasks</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="rest_request">Team08 - Handle Staff Request</string>
+    <string name="rest_request2">Team06 - Handle Staff Request</string>
+    <string name="feedback">Send Feedback/Complains</string>
+
+    <string name="preferences">Preferences</string>
+    <string name="language">Language</string>
+    <string name="colorTheme">Color Theme</string>
+
+    <string name="defaultTheme">Default</string>
+    <string name="dark">Dark Theme</string>
+    <string name="bright">Bright Theme</string>
+    <string name="disneyworld">Disneyworld Theme</string>
+    <string name="contact">Contact @ team-07</string>
+
+</resources>

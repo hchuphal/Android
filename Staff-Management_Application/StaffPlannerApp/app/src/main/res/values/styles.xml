@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Default pink and green application theme. -->
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonDefault</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">@color/colorBrighterPink</item>
+        <item name="android:textColor">@color/colorBrighterPink</item>
+        <item name="android:windowBackground">@color/colorBrighterGreen</item>
+    </style>
+    <style name="ButtonDefault">
+        <item name="android:textColor">@color/colorBrighterPink</item>
+        <item name="android:background">@color/colorDarkerGreen</item>
+        <item name="android:height">38dp</item>
+    </style>
+
+
+
+    <!-- Bright theme. -->
+    <style name="BrightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonBright</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="ButtonBright">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:height">38dp</item>
+    </style>
+
+    <!-- Dark theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:windowBackground">@color/colorBrighterGray</item>
+    </style>
+    <style name="ButtonDark">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/colorDarkerGray</item>
+        <item name="android:height">38dp</item>
+    </style>
+
+    <!-- white button color blue gradient background and text-->
+    <style name="DisneyworldTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+
+        <item name="android:buttonStyle">@style/ButtonDisneyworld</item>
+        <item name="android:windowBackground">@drawable/gradient</item>
+
+    </style>
+    <style name="ButtonDisneyworld">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:height">38dp</item>
+    </style>
+
+
+</resources>

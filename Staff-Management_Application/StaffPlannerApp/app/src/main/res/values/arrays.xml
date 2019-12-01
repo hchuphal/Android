@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>Default</item>
+        <item>Bright Theme</item>
+        <item>Dark Theme</item>
+        <item>Disneyworld Theme</item>
+    </string-array>
+
+    <string-array name="listValue">
+        <item>Default</item>
+        <item>Bright Theme</item>
+        <item>Dark Theme</item>
+        <item>Disneyworld Theme</item>
+
+    </string-array>
+</resources>

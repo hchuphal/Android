@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="preferencescreen">
+    <ListPreference
+        android:defaultValue="false"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValue"
+        android:key="color"
+        android:summary="@string/colorTheme"
+        android:title="@string/colorTheme" />
+    <ListPreference
+        android:defaultValue="false"
+        android:entries="@array/listLanguageArray"
+        android:entryValues="@array/listLanguageValue"
+        android:key="language"
+        android:summary="@string/language"
+        android:title="@string/language" />
+
+</PreferenceScreen>
